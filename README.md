@@ -2,9 +2,11 @@
 
 # DevProcess Event - CodeBoost
 
-An event held by the course [CodeBoost](https://codeboost.com.br/), with the instructor: [Will Moreira](https://github.com/WillMoreiraDev), front-end engineer, who currently `coda` for the agency (INSANY DESIGN 🤘)[https://insany.design/].
+An event held by the course [CodeBoost](https://codeboost.com.br/), with the instructor: [Will Moreira](https://github.com/WillMoreiraDev), front-end engineer, who currently `coda` for the agency [INSANY DESIGN 🤘](https://insany.design/).
 
 The project consisted of developing a **God of War** game website for consoles. With a layout that has a lot of effects and many micro interactions.
+
+---
 
 ### My objective
 
@@ -42,6 +44,8 @@ My biggest interest in participating in this event was to try to understand a li
 
 ## Final result:
 
-[![Banner Resutado Final](/img/the-end-mockup.png)](https://codeboost.com.br/projetos/god/)
+&#xa0;
+
+[![Final Result Banner](/img/the-end-mockup.png)](https://codeboost.com.br/projetos/god/)
 
 &#xa0;

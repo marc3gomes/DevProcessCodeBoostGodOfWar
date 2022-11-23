@@ -8,24 +8,24 @@ The objective is simple: Write down information relevant to the moment I partici
 
 ## Schedule #2 Class
 
-- [x] Criando estrutura de pasta e arquivos;
-- [x] Exportando os assets;
-- [x] Configurando as fontes do projeto;
-- [x] Criando o arquivo de reset;
-- [x] Criando o arquivo de grid;
-- [x] Analisando padrões do site e criando no css;
-- [x] Iniciando a codificacão
+- [x] Creating folder structure and files;
+- [x] Exporting the assets;
+- [x] Configuring the project fonts;
+- [x] Creating the reset file;
+- [x] Creating the grid file;
+- [x] Analyzing site patterns and creating in css;
+- [x] Starting coding
   - [x] HEADER
   - [x] SECTION HERO
   - [x] SECTION INFOS
 
 ## Schedule #3 Class
 
-- [x] Continuando a codificacão
+- [x] Continuing coding
   - [x] SECTION STORY
   - [x] SECTION CHARACTER
 - [x] Swiper Slide
-- [x] Codificando o slide 
+- [x] Coding the slide
 
 &#xa0;
 
