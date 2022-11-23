@@ -2,7 +2,7 @@
 
 # DevProcess Event - CodeBoost
 
-An event held by the course (CodeBoost)[https://codeboost.com.br/], with the instructor: (Will Moreira)[https://github.com/WillMoreiraDev], front-end engineer, who currently `coda` for the agency (INSANY DESIGN 🤘)[https://insany.design/].
+An event held by the course [CodeBoost](https://codeboost.com.br/), with the instructor: [Will Moreira](https://github.com/WillMoreiraDev), front-end engineer, who currently `coda` for the agency (INSANY DESIGN 🤘)[https://insany.design/].
 
 The project consisted of developing a **God of War** game website for consoles. With a layout that has a lot of effects and many micro interactions.
 
@@ -20,16 +20,16 @@ My biggest interest in participating in this event was to try to understand a li
 
 - [Demo](https://codeboost.com.br/projetos/god/)
 - [Figma Layout](https://www.figma.com/file/fsIw98OV6l3VMRnU8HKtKr/Codeboost---God-of-War-Ragnarok?node-id=0%3A1&t=ktyXg004HCI6AKye-1)
-- :bank: [Notes](/NOTES.md)
+- [Notes](/NOTES.md)
 
 ---
 
-### - Technology used
-[`HTML 5`](https://developer.mozilla.org/pt-BR/docs/Web/HTML) | [`CSS`](https://developer.mozilla.org/pt-BR/docs/Web/CSS) | [`Sass`](https://github.com/sass) | [`JS`](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript) | [`Figma`](https://www.figma.com/)
+### Technology used
+![HTML](/img/icones/html5.svg) [`HTML 5`](https://developer.mozilla.org/pt-BR/docs/Web/HTML) | ![CSS 3](/img/icones/css3.svg) [`CSS`](https://developer.mozilla.org/pt-BR/docs/Web/CSS) | ![Sass](/img/icones/sass.svg) [`Sass`](https://github.com/sass) | ![JavaScript](/img/icones/javascript.svg) [`JS`](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript) | ![Figma](/img/icones/figma.svg) [`Figma`](https://www.figma.com/)
 
 ---
 
-### - Libs
+### Libs
 - [`SwiperJS`](https://github.com/nolimits4web/swiper)
 
 ---
@@ -42,6 +42,6 @@ My biggest interest in participating in this event was to try to understand a li
 
 ## Final result:
 
-[![Banner Resutado Final](the-end-mockup.png)}()
+[![Banner Resutado Final](/img/the-end-mockup.png)](https://codeboost.com.br/projetos/god/)
 
 &#xa0;
