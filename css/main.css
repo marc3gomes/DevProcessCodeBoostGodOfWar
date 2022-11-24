@@ -53,11 +53,31 @@ body {
   line-height: 2.2rem;
   margin-left: 1.5rem;
 }
+@media (max-width: 1200px) {
+  .subtitle span {
+    font-size: 1.8rem;
+  }
+}
+@media (max-width: 991px) {
+  .subtitle {
+    justify-content: center;
+  }
+}
+@media (max-width: 560px) {
+  .subtitle span {
+    font-size: 1.6rem;
+  }
+}
 
 h1 {
   font-weight: 700;
   font-size: 12.4rem;
   line-height: 97.5%;
+}
+@media (max-width: 1200px) {
+  h1 {
+    font-size: 10rem;
+  }
 }
 
 h2 {
@@ -75,18 +95,21 @@ p {
 
 .card-character {
   width: 100%;
-  max-width: 38.4rem;
+  max-width: 39rem;
 }
 .card-character .image {
   position: relative;
   display: flex;
   justify-content: center;
   width: 100%;
-  height: 52rem;
+  height: 48rem;
   overflow: hidden;
   margin-bottom: 2.4rem;
 }
 .card-character .image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
   transition: transform 0.3s ease;
 }
 .card-character .image button {
@@ -116,6 +139,11 @@ p {
 .card-character:hover .image button {
   opacity: 1;
   bottom: 5.7rem;
+}
+@media (max-width: 991px) {
+  .card-character .image {
+    height: 44rem;
+  }
 }
 
 header {
@@ -151,13 +179,28 @@ header .plataform ul li {
   font-size: 1.6rem;
   line-height: 1.7rem;
 }
+@media (max-width: 560px) {
+  header {
+    height: 7rem;
+  }
+  header .sony {
+    display: none;
+  }
+  header .logo {
+    max-width: 140px;
+  }
+  header .plataform span {
+    display: none;
+  }
+}
 
 .s-hero {
   padding-top: 16.4rem;
   padding-bottom: 10.3rem;
   background-image: url("../img/bg-hero.jpg");
-  background-position: center center;
+  background-position: top center;
   background-repeat: no-repeat;
+  background-attachment: fixed;
   height: 80rem;
 }
 .s-hero .container {
@@ -240,6 +283,85 @@ header .plataform ul li {
   max-width: 27.4rem;
   margin-left: 1.5rem;
 }
+@media (max-width: 1200px) {
+  .s-hero {
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+    height: auto;
+    background-position: 31%;
+  }
+  .s-hero .left {
+    max-width: 64rem;
+  }
+  .s-hero .left p {
+    font-size: 1.8rem;
+  }
+  .s-hero .right {
+    top: 0;
+    max-width: 35.3rem;
+  }
+  .s-hero .right button {
+    height: 19.7rem;
+  }
+}
+@media (max-width: 991px) {
+  .s-hero {
+    padding: 6rem 0;
+    background-size: cover;
+  }
+  .s-hero .container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .s-hero .container .left {
+    text-align: center;
+    margin-bottom: 4rem;
+  }
+  .s-hero .container .left .value {
+    justify-content: center;
+  }
+  .s-hero .container .right {
+    text-align: center;
+  }
+  .s-hero .container .right button {
+    margin-bottom: 3rem;
+  }
+  .s-hero .container .right .classification {
+    flex-direction: column;
+  }
+  .s-hero .container .right .classification p {
+    margin-left: 0;
+    margin-top: 2rem;
+  }
+}
+@media (max-width: 560px) {
+  .s-hero {
+    padding: 4rem 0;
+  }
+  .s-hero .left h1 {
+    font-size: 6rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+  .s-hero .left p {
+    font-size: 1.4rem;
+    max-width: 80%;
+    margin: 0 auto;
+    margin-bottom: 3rem;
+  }
+  .s-hero .left .value {
+    flex-direction: column;
+  }
+  .s-hero .right {
+    max-width: 31rem;
+  }
+  .s-hero .right button {
+    height: 17.7rem;
+  }
+  .s-hero .right .classification {
+    line-height: 2.4rem;
+  }
+}
 
 .s-info-general {
   width: 100%;
@@ -265,6 +387,27 @@ header .plataform ul li {
   line-height: 160%;
   color: #BDC2CB;
   margin-top: 1.2rem;
+}
+@media (max-with: 1200px) {
+  .s-info-general {
+    padding: 4rem 0;
+    height: auto;
+  }
+  .s-info-general ul {
+    flex-wrap: wrap;
+    gap: 3rem 0;
+  }
+  .s-info-general ul li {
+    width: 31.3%;
+  }
+  .s-info-general ul li span {
+    max-width: 14.5rem;
+  }
+}
+@media (max-width: 560px) {
+  .s-info-general ul li {
+    width: 50%;
+  }
 }
 
 .s-story {
@@ -309,6 +452,58 @@ header .plataform ul li {
   left: 110px;
   top: -45px;
 }
+@media (max-width: 1200px) {
+  .s-story {
+    background-image: none;
+    padding: 6rem 0;
+  }
+  .s-story .container {
+    flex-direction: column-reverse;
+  }
+  .s-story .left {
+    max-width: 100%;
+    text-align: center;
+  }
+  .s-story .left .subtitle {
+    justify-content: center;
+  }
+  .s-story .left h2 {
+    max-width: 75%;
+    margin: 2rem auto;
+  }
+  .s-story .left .corp {
+    justify-content: center;
+  }
+  .s-story .kratos-atreus {
+    left: 0;
+    top: 0;
+    margin-bottom: 6rem;
+  }
+}
+@media (max-width: 991px) {
+  .s-story .left h2 {
+    max-width: 95%;
+  }
+}
+@media (max-width: 560px) {
+  .s-story .left h2 {
+    font-size: 3rem;
+  }
+  .s-story .left p {
+    font-size: 1.6rem;
+    margin-bottom: 4rem;
+  }
+  .s-story .left .cor {
+    flex-direction: column;
+  }
+  .s-story .left .cor p {
+    margin-left: 0;
+    margin-top: 3rem;
+  }
+  .s-story .kratos-atreus {
+    margin-bottom: 4rem;
+  }
+}
 
 .s-characters {
   padding-top: 17.6rem;
@@ -341,4 +536,44 @@ header .plataform ul li {
   line-height: 140%;
   max-width: 14.3rem;
   margin-top: 2.2rem;
+}
+@media (max-width: 1200px) {
+  .s-characters .description {
+    padding: 6rem 0;
+  }
+}
+@media (max-width: 991px) {
+  .s-characters .description .description {
+    flex-direction: column;
+    align-items: center;
+  }
+  .s-characters .description .description .left {
+    max-width: 100%;
+    text-align: center;
+    margin-bottom: 4rem;
+  }
+}
+@media (max-width: 560px) {
+  .s-characters .description {
+    padding: 4rem 0;
+  }
+  .s-characters .description .description .left h2 {
+    font-size: 3rem;
+  }
+  .s-characters .description .description .left p {
+    font-size: 1.6rem;
+  }
+  .s-characters .description .description .right {
+    flex-direction: column;
+    align-items: center;
+  }
+  .s-characters .description .description .right .text img {
+    margin: 0 auto;
+  }
+  .s-characters .description .description .right .text span {
+    max-width: 100%;
+  }
+  .s-characters .description .slide-characters {
+    margin-top: 4rem;
+  }
 }

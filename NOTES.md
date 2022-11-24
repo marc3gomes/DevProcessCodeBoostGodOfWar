@@ -24,8 +24,19 @@ The objective is simple: Write down information relevant to the moment I partici
 - [x] Continuing coding
   - [x] SECTION STORY
   - [x] SECTION CHARACTER
-- [x] Swiper Slide
+- [x] Swiper slide
 - [x] Coding the slide
+
+## Schedule #4 Class
+- [x] Responsive
+  - [x] HEADER
+  - [x] SECTION HERO
+  - [x] SECTION INFOS
+  - [x] SECTION STORY
+  - [x] SECTION CRACTER
+- [x] Favicon
+- [x] Content animations
+- [x] Block structure
 
 &#xa0;
 
