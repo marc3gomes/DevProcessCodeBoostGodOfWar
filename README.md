@@ -33,6 +33,7 @@ My biggest interest in participating in this event was to try to understand a li
 
 ### Libs
 - [`SwiperJS`](https://github.com/nolimits4web/swiper)
+- [`AOS`](https://github.com/michalsnik/aos)
 
 ---
 
