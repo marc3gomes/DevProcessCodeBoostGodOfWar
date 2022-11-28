@@ -20,7 +20,7 @@ My biggest interest in participating in this event was to try to understand a li
 
 ### Links
 
-- [Demo](https://codeboost.com.br/projetos/god/)
+- [Demo](https://marcg-dev.github.io/DevProcessCodeBoostGodOfWar/)
 - [Figma Layout](https://www.figma.com/file/fsIw98OV6l3VMRnU8HKtKr/Codeboost---God-of-War-Ragnarok?node-id=0%3A1&t=ktyXg004HCI6AKye-1)
 - [Notes](/NOTES.md)
 
@@ -47,6 +47,8 @@ My biggest interest in participating in this event was to try to understand a li
 
 &#xa0;
 
-[![Final Result Banner](/img/the-end-mockup.png)](https://codeboost.com.br/projetos/god/)
+[![Final Result Banner](/img/finalResul1.png)](https://marcg-dev.github.io/DevProcessCodeBoostGodOfWar/)
 
 &#xa0;
+
+[![Final Result Banner](/img/finalResul2.png)](https://marcg-dev.github.io/DevProcessCodeBoostGodOfWar/)
