@@ -196,7 +196,6 @@ header .plataform ul li {
 
 .s-hero {
   padding-top: 16.4rem;
-  padding-bottom: 10.3rem;
   background-image: url("../img/bg-hero.jpg");
   background-position: top center;
   background-repeat: no-repeat;
@@ -217,6 +216,7 @@ header .plataform ul li {
   margin-bottom: 1.8rem;
 }
 .s-hero .left p {
+  max-width: 60rem;
   font-weight: 500;
   font-size: 2.2rem;
   line-height: 140%;
@@ -244,24 +244,24 @@ header .plataform ul li {
 }
 .s-hero .right {
   position: relative;
-  top: 9.7rem;
+  top: 9.8rem;
   width: 100%;
   max-width: 44.3rem;
 }
 .s-hero .right span {
   display: block;
-  font-weight: 400;
-  font-size: 1.6rem;
-  line-height: 1.7rem;
-  margin-bottom: 2.3rem;
+  font-weight: 700;
+  font-size: 1.8rem;
+  line-height: 2rem;
+  margin-bottom: 2.4rem;
 }
 .s-hero .right button {
   position: relative;
   width: 100%;
   height: 24.7rem;
-  border: 2px solid #3265EA;
+  border: 4px solid #3265EA;
   overflow: hidden;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  box-shadow: 0px 22.8941px 34.3411px -11.447px rgba(8, 8, 11, 0.8);
   margin-bottom: 5.1rem;
 }
 .s-hero .right button .thumbnail {
@@ -368,6 +368,7 @@ header .plataform ul li {
   height: 18rem;
   display: flex;
   align-items: center;
+  background-color: #090a0a;
 }
 .s-info-general ul {
   display: flex;
@@ -388,7 +389,7 @@ header .plataform ul li {
   color: #BDC2CB;
   margin-top: 1.2rem;
 }
-@media (max-with: 1200px) {
+@media (max-width: 1200px) {
   .s-info-general {
     padding: 4rem 0;
     height: auto;
@@ -411,14 +412,11 @@ header .plataform ul li {
 }
 
 .s-story {
-  width: 100%;
+  background-image: url("../img/bg-story.jpg");
   padding-top: 16rem;
   padding-bottom: 8rem;
-  background-image: url("../img/bg-story.png");
   background-position: top center;
   background-repeat: no-repeat;
-  background-size: cover;
-  overflow: hidden;
 }
 .s-story .container {
   display: flex;
@@ -511,6 +509,7 @@ header .plataform ul li {
   background-image: url("../img/bg-characters.png");
   background-position: center center;
   overflow: hidden;
+  background-repeat: no-repeat;
 }
 .s-characters .description {
   display: flex;
@@ -532,48 +531,48 @@ header .plataform ul li {
 .s-characters .description .right .text span {
   display: block;
   font-weight: 500;
-  font-size: 18px;
+  font-size: 1.8rem;
   line-height: 140%;
   max-width: 14.3rem;
   margin-top: 2.2rem;
 }
 @media (max-width: 1200px) {
-  .s-characters .description {
+  .s-characters {
     padding: 6rem 0;
   }
 }
 @media (max-width: 991px) {
-  .s-characters .description .description {
+  .s-characters .description {
     flex-direction: column;
     align-items: center;
   }
-  .s-characters .description .description .left {
+  .s-characters .description .left {
     max-width: 100%;
     text-align: center;
     margin-bottom: 4rem;
   }
 }
 @media (max-width: 560px) {
-  .s-characters .description {
+  .s-characters {
     padding: 4rem 0;
   }
-  .s-characters .description .description .left h2 {
+  .s-characters .description .left h2 {
     font-size: 3rem;
   }
-  .s-characters .description .description .left p {
+  .s-characters .description .left p {
     font-size: 1.6rem;
   }
-  .s-characters .description .description .right {
+  .s-characters .description .right {
     flex-direction: column;
     align-items: center;
   }
-  .s-characters .description .description .right .text img {
+  .s-characters .description .right .text img {
     margin: 0 auto;
   }
-  .s-characters .description .description .right .text span {
+  .s-characters .description .right .text span {
     max-width: 100%;
   }
-  .s-characters .description .slide-characters {
+  .s-characters .slide-characters {
     margin-top: 4rem;
   }
-}
+}/*# sourceMappingURL=main.css.map */

@@ -4,10 +4,10 @@ var swiper = new Swiper(".slide-characters", {
   freeMode: true,
   breakpoints: {
     320: {
-      slidesPerView: 1.1,
+      slidesPerView: 1.8,
     },
     768: {
-      slidesPerView: 2.2,
+      slidesPerView: 2.5,
     },
     991: {
       slidesPerView: 2.8,
